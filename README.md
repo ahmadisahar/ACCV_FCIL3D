@@ -45,6 +45,7 @@ You can install the required dependencies using pip:
 
 ```bash
 pip install torch torchvision numpy scipy scikit-learn open3d matplotlib
+---
 
 ## Citation
 
