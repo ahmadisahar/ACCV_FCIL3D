@@ -37,14 +37,9 @@ To run the code in this repository, you'll need the following libraries and tool
 - PyTorch 1.8.0 or higher
 - NumPy
 - SciPy
-- scikit-learn
 - Open3D
 - Matplotlib
-
-You can install the required dependencies using pip:
-
-```bash
-pip install torch torchvision numpy scipy scikit-learn open3d matplotlib
+- pointnet2_ops
 ---
 
 ## Citation
@@ -57,5 +52,4 @@ If you use this code or methods in your research, please consider citing our pap
   author={Ahmadi, Sahar and Cheraghian, Ali and Ramasinghe, Sameera and Chowdhury, Townim Faisal and Saberi, M and Petersson, Lars},
   booktitle={Proceedings of the ACCV 2024},
   year={2024},
-  url={https://doi.org/your_doi_link_here}
 }
