@@ -16,12 +16,12 @@ Recent advances in deep learning for processing point clouds have highlighted th
 
 ## Datasets
 
-We evaluate our method on several datasets, including:
+Our framework is designed to facilitate cross-dataset incremental
+learning with focused classifications:
 
-- ModelNet
-- ShapeNet
-- ScanObjectNN
-- CO3D
+- ModelNet40 --> ScanObjectNN
+- ShapeNet --> ScanObjectNN
+- ShapeNet --> CO3D
 
 Refer to the [Datasets](https://github.com/townim-faisal/FSCIL-3D/blob/main/data/dataset/README.md) section for information on how to set up these datasets.
 
@@ -40,6 +40,9 @@ To run the code in this repository, you'll need the following libraries and tool
 - Open3D
 - Matplotlib
 - pointnet2_ops
+- Ninja
+- KNN
+- torchmetrics
 ---
 
 ## Citation
